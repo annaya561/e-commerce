@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 !important;
+    overflow-x: hidden;
+}
+
+/* ================header======================== */
+.top-bar{
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar{
+    color: #cfd6e1 !important;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; 
+    width: 40%;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 500;
+    color: #77bc88 !important;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+
+.carousel-indicators button {
+    /* background-color: green !important;  */
+    background-color: rgb(252 107 107) !important;
+}
+
+
+.carousel-item-banner{
+    background-color: #efefef;
+}
+
+
+.bg-light {
+    /* background-color: #e9eef5 !important; */
+    background: #efe6e0 !important;
+}
+
+
+.footer{
+    background-color: #1d1d1d;
+}
+#template-footer {
+    border-color: #2d343f !important;
+}
+.border-light{
+    border-color: #2d343f !important;
+}
+
+#template-footer a{
+    color: #dcdde1;
+}
+.footer-text-light{
+    color: #dcdde1;
+}
+
+.footer-btn{
+    background-color: rgb(252 107 107);
+    border-color: rgb(252 107 107);
+}
+
+.footer-last{
+    background-color: #18191a !important;
+}
+
+
+
+
+#subscribeEmail::placeholder {
+    color: #dcdde1;
+}
+
+
+.brand-img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+    
+}
+.brand-img:hover{
+    color: #1d242d;
+}
+
+.h1-about{
+    color: gray;
+    font-weight: 100;
+}
+
+.text-success{
+    /* color: #59ab6e !important; */
+    color: rgb(252 107 107) !important;
+}
+.services-icon-wap{
+    background: white;
+}
+
+.services-icon-wap:hover {
+    background: rgb(252 107 107);
+}
+.services-icon-wap:hover, .services-icon-wap:hover i {
+    color: #fff;
+}
+
+h1{
+    font-weight: 100;
+}
+
+.btn-success{
+    background-color: rgb(252 107 107) !important;
+    border-color: rgb(252 107 107);
+}
+.btn-success:hover{
+    background-color: rgb(245, 78, 78) !important;
+    border-color: #000000;
+}
+
+
+.h3{
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.h3-categories{
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+}
+.h3-categories:hover{
+    color: rgb(252 107 107) !important;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand-zay{
+        text-align: left !important;
+        justify-content: left !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .ms-lg-5 {
+        margin-left: 4rem !important;
+    }
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(252 107 107)!important;
+}
+
+.map{
+    position:relative;
+     width:100%; height:0; 
+     padding-bottom:200px;
+}
+
+.map-location{
+    border:0; 
+    position:absolute; 
+    top:0; left:0; 
+    width:100%; 
+    height:100%;
+}
+
+.bg-success{
+    background-color: rgb(252 107 107) !important;
+}
